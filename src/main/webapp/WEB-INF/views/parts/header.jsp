@@ -22,9 +22,11 @@
 				</div>
 		  	</div>
 		</div>
-		<div class="modalLogin" id="login">
-			AAAAAAAAAAAAAAA
-			<a href="" class="modalLoginClose">Close</a>
+		<div class="modalBackground" id="login">
+			<div class="modalLogin">
+				<a href="" class="modalLoginClose">&times;</a>
+				
+			</div>
 		</div>
     </body>
 </html>
