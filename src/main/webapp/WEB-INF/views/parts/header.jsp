@@ -26,6 +26,15 @@
 			<div class="modalLogin">
 				<a href="" class="modalLoginClose">&times;</a>
 				
+				<p class="nameMailText">Email or username</p>
+				<textarea class="nameMailArea" rows="1"></textarea>
+				
+				<p class="passwordText">Password</p>
+				<textarea class="passwordArea" rows="1"></textarea>
+				
+				<p class="captchaText">Captcha</p>
+				
+				<a href="" class="modalLoginConfirm">Login</a>
 			</div>
 		</div>
     </body>
