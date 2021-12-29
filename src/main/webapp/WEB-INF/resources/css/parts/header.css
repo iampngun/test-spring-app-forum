@@ -99,7 +99,7 @@
 	right: 0;
 	bottom: 0;
 	pointer-events: none;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.55);
 }
 
 .modalBackground:target {
@@ -111,8 +111,8 @@
 	display: inline-block;
 	position: absolute;
 	text-align: center;
-	width: 400px;
-	height: 400px;
+	width: 370px;
+	height: 260px;
 	top: 50%;
 	left: 50%;
 	margin-left: -200px;
@@ -121,7 +121,7 @@
 	border-radius: 5px;
 }
 
-.modalLoginClose {
+.modalClose {
 	position: absolute;
 	top: 1px;
 	right: 1px;
@@ -132,7 +132,7 @@
 	color: white;
 }
 
-.modalLoginClose:visited {
+.modalClose:visited {
 	text-decoration: none;
 }
 
@@ -144,7 +144,7 @@
 	width: 105px;
 	height: 25px;
 	text-decoration: none;
-	margin-top: 370px;
+	margin-top: 230px;
 	color: white;
 	font-size: 20px;
 	letter-spacing: 4px;
@@ -184,22 +184,6 @@
 	font-family: "Impact", Georgia, Serif;
 }
 
-.captchaText {
-	text-align: center;
-	display: inline-block;
-	width: 100px;
-	height: 25px;
-	text-decoration: none;
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	margin-top: 210px;
-	left: 50%;
-	margin-left: -50px;
-	letter-spacing: 4px;
-	font-family: "Impact", Georgia, Serif;
-}
-
 .nameMailArea {
 	text-align: center;
 	display: inline-block;
@@ -225,6 +209,99 @@
 	margin-left: -150px;
 	border-radius: 5px;
 }
+
+.modalRegister {
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	width: 370px;
+	height: 350px;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	background-color: #424242;
+	border-radius: 5px;
+}
+
+.modalRegisterConfirm {
+	text-align: center;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 5px;
+	width: 150px;
+	height: 25px;
+	text-decoration: none;
+	margin-top: 320px;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 4px;
+	cursor: pointer;
+	font-family: "Impact", Georgia, Serif;
+}
+
+.nameText {
+	text-align: center;
+	display: inline-block;
+	width: 230px;
+	height: 25px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	margin-top: 40px;
+	left: 50%;
+	margin-left: -115px;
+	letter-spacing: 4px;
+	font-family: "Impact", Georgia, Serif;
+}
+
+.mailText {
+	text-align: center;
+	display: inline-block;
+	width: 120px;
+	height: 25px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	margin-top: 220px;
+	left: 50%;
+	margin-left: -60px;
+	letter-spacing: 4px;
+	font-family: "Impact", Georgia, Serif;
+}
+
+.nameArea {
+	text-align: center;
+	display: inline-block;
+	width: 300px;
+	height: 25px;
+	font-size: 20px;
+	position: absolute;
+	margin-top: 70px;
+	left: 50%;
+	margin-left: -150px;
+	border-radius: 5px;
+}
+
+.mailArea {
+	text-align: center;
+	display: inline-block;
+	width: 300px;
+	height: 25px;
+	font-size: 20px;
+	position: absolute;
+	margin-top: 250px;
+	left: 50%;
+	margin-left: -150px;
+	border-radius: 5px;
+}
+
+
+
+
+
 
 
 
