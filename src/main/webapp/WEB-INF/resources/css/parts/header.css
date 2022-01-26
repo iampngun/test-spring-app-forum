@@ -48,7 +48,11 @@
     cursor: pointer;
 }
 
-.dropdown-content {
+.messageIconCheckbox {
+	
+}
+
+.user-dropdown-content {
 	pointer-events: none;
 	display: none;
 	border-radius: 5px;
@@ -58,6 +62,10 @@
 	margin-top: 87px;
 	margin-left: -20px;
 	align-items: center;
+}
+
+.message-dropdown-content {
+	
 }
 
 
@@ -195,6 +203,7 @@
 	left: 50%;
 	margin-left: -150px;
 	border-radius: 5px;
+	resize: none;
 }
 
 .passwordArea {
@@ -208,6 +217,7 @@
 	left: 50%;
 	margin-left: -150px;
 	border-radius: 5px;
+	resize: none;
 }
 
 .modalRegister {
@@ -283,6 +293,7 @@
 	left: 50%;
 	margin-left: -150px;
 	border-radius: 5px;
+	resize: none;
 }
 
 .mailArea {
@@ -296,6 +307,7 @@
 	left: 50%;
 	margin-left: -150px;
 	border-radius: 5px;
+	resize: none;
 }
 
 

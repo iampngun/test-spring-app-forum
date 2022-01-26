@@ -10,9 +10,15 @@
 		  	<a href = "${pageContext.request.contextPath}/">
 		  		<input class = "headerMainText" type = "button" value = "Forum"/>
 		  	</a>
+		  	<div class = "messageIconDiv">
+		  		<input class = "messageIconCheckbox" type = "checkbox">
+		  		<div class="message-dropdown-content">
+		  			
+		  		</div>
+		  	</div>
 		  	<div class = "userIconDiv">
 		  		<input class = "userIconCheckbox" type = "checkbox">
-		  		<div class="dropdown-content">
+		  		<div class="user-dropdown-content">
 					<div>
 						<a href="#login" role="button" class="button loginButton">Login</a>
 					</div>
