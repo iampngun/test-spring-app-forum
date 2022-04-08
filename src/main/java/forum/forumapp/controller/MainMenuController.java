@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class MainMenuController {
 
 	@RequestMapping(value="/")
-	public ModelAndView test(HttpServletResponse response) throws IOException{
-		return new ModelAndView("mainMenu");
+	public ModelAndView test(HttpServletResponse response) throws IOException {
+		return new ModelAndView("index");
 	}
 }

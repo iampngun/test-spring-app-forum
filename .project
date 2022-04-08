@@ -3,6 +3,8 @@
 	<name>forumapp</name>
 	<comment></comment>
 	<projects>
+		<project>Servers</project>
+		<project>testing-stuff</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
